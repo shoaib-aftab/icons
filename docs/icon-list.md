@@ -18,7 +18,7 @@ Below is a categorized list of all available icons in the SAT Icons library. Use
 `mail`, `mail-open`, `inbox`, `message-circle`, `message-square`, `phone`, `phone-call`, `phone-incoming`, `phone-outgoing`, `phone-missed`, `phone-off`, `voicemail`, `video-call`, `headphones`, `mic`, `mic-off`, `speaker`, `volume`, `volume-1`, `volume-2`, `volume-x`, `bell`, `bell-off`, `rss`
 
 ### Business
-`briefcase`, `shopping-cart`, `shopping-bag`, `credit-card`, `wallet`, `dollar-sign`, `rupee`, `euro`, `pound`, `yen`, `bitcoin`, `bank`, `building-columns`, `landmark`, `shop`, `store`, `truck`, `shipping`, `bar-chart`, `pie-chart`, `trending-up`, `trending-down`, `activity`, `percent`, `receipt`, `invoice`, `barcode`, `qr-code`, `calculator`, `printer`, `scissors`, `scale`, `badge-percent`, `trophy`, `gem`
+`briefcase`, `shopping-cart`, `cart-shopping`, `shopping-bag`, `credit-card`, `wallet`, `dollar-sign`, `rupee`, `euro`, `pound`, `yen`, `bitcoin`, `bank`, `building-columns`, `landmark`, `shop`, `store`, `industry`, `truck`, `shipping`, `bar-chart`, `pie-chart`, `trending-up`, `trending-down`, `activity`, `percent`, `receipt`, `invoice`, `barcode`, `qr-code`, `calculator`, `printer`, `scissors`, `scale`, `badge-percent`, `trophy`, `gem`
 
 ### Users
 `user`, `users`, `user-plus`, `user-minus`, `user-x`, `user-check`, `avatar`, `crown`, `user-cog`, `contact`, `address-book`, `id-card`, `fingerprint`, `ban`, `shield`
@@ -27,7 +27,7 @@ Below is a categorized list of all available icons in the SAT Icons library. Use
 `shield-check`, `shield-off`, `shield-alert`, `lock-keyhole`, `key-round`, `scan`, `scan-face`, `scan-line`, `shield-lock`, `encryption`, `password`, `vpn`, `server`, `cloud-lock`, `certificate`
 
 ### Devices
-`monitor`, `laptop`, `tablet`, `smartphone`, `mobile`, `watch`, `cpu`, `chip`, `memory`, `battery`, `battery-charging`, `wifi`, `wifi-off`, `bluetooth`, `cast`, `airplay`, `tv`, `radio`, `speaker-device`, `projector`
+`monitor`, `laptop`, `tablet`, `smartphone`, `mobile`, `mobile-screen`, `watch`, `cpu`, `chip`, `memory`, `battery`, `battery-charging`, `wifi`, `wifi-off`, `bluetooth`, `cast`, `airplay`, `tv`, `radio`, `speaker-device`, `projector`
 
 ### Weather
 `sun`, `moon`, `cloud`, `cloud-rain`, `cloud-snow`, `cloud-lightning`, `umbrella`, `droplet`, `wind`, `thermometer`, `sunrise`, `sunset`, `moon-stars`, `cloud-drizzle`, `tornado`
