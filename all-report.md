@@ -82,6 +82,7 @@ When instructing AI or a developer to create a new component (e.g., **SAT Admin 
 ### Current Ecosystem Map:
 - **SAT CSS (`/src`, `/dist`):** Variables, Reset, Colors, Spacing, Typography, Layout, Sizing, Borders, Effects, Positioning, Components, Utilities, Animations, RTL, Print.
 - **SAT JS (`/js-library`):** Core, DOM, Events, AJAX, Selectors, Storage, Cookies, URL, String, Number, Array, Object, Date, Validation, Animation, Utilities, i18n, Polyfills.
+- **SAT Icons (`/sat-icons`):** Over 500+ premium SVG icons compiled into a single lightweight SVG sprite. Includes dynamic CSS classes for Shape toggling (`.sat-icon-round`, `.sat-icon-square`), animations, sizes, RTL handling, full-color brand logos, and regional categories (Islamic, Pakistani). Built for international software development context.
 - **SAT Website (`/website-updated`):** Vite, PWA, Hero, Services, Products, Live JS Demo, Infinite Client Marquee, Contact Footer.
 
 ---

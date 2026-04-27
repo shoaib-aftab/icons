@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT Icons - Premium SVG Library</title>
+    <!-- Use local SAT CSS from the ecosystem repository -->
+    <link rel="stylesheet" href="../src/assets/css/sat-css.min.css">
+    <!-- Load local SAT Icons CSS -->
+    <link rel="stylesheet" href="../src/sat-icons.css">
+    <style>
+      /* Injecting sprite directly into DOM for demo via JS */
+    </style>
+</head>
+<body class="sat-bg-gray-50 sat-text-gray-900 sat-font-sans">
+
+    <!-- Navbar -->
+    <header class="sat-bg-white sat-shadow-sm sat-sticky sat-top-0 sat-z-50">
+        <div class="sat-container sat-mx-auto sat-px-4 sat-py-4 sat-flex sat-justify-between sat-items-center">
+            <div class="sat-flex sat-items-center sat-gap-2">
+                <svg class="sat-icon sat-icon-primary sat-icon-lg"><use href="#sat-icon-compass"></use></svg>
+                <h1 class="sat-text-xl sat-font-bold sat-text-primary-600">SAT Icons</h1>
+            </div>
+            <nav class="sat-flex sat-gap-6">
+                <a href="#shapes" class="sat-text-gray-600 hover:sat-text-primary-600 sat-font-medium sat-transition">Shapes</a>
+                <a href="#animations" class="sat-text-gray-600 hover:sat-text-primary-600 sat-font-medium sat-transition">Animations</a>
+                <a href="#icons" class="sat-text-gray-600 hover:sat-text-primary-600 sat-font-medium sat-transition">Library</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="sat-container sat-mx-auto sat-px-4 sat-py-20 sat-text-center">
+        <h2 class="sat-text-5xl sat-font-extrabold sat-text-gray-900 sat-mb-6">
+            Beautiful, Consistent, <span class="sat-text-primary-600">Open Source Icons</span>
+        </h2>
+        <p class="sat-text-xl sat-text-gray-600 sat-max-w-2xl sat-mx-auto sat-mb-10">
+            A meticulously crafted SVG icon library for modern software development. Features 400+ icons, CSS shape toggling (Round vs Square), RTL support, and full-color brand logos. Built exclusively for the Shoaib Aftab Tech ecosystem.
+        </p>
+        <div class="sat-flex sat-justify-center sat-gap-4">
+            <a href="#icons" class="sat-btn sat-btn-primary sat-btn-lg sat-flex sat-items-center sat-gap-2">
+                <svg class="sat-icon"><use href="#sat-icon-search"></use></svg> Explore Icons
+            </a>
+            <a href="https://github.com/shoaib-aftab-tech/sat-icons" class="sat-btn sat-btn-outline sat-btn-lg sat-flex sat-items-center sat-gap-2">
+                <svg class="sat-icon"><use href="#sat-icon-github"></use></svg> GitHub
+            </a>
+        </div>
+    </section>
+
+    <!-- Features / Shapes Demo -->
+    <section id="shapes" class="sat-bg-white sat-py-16">
+        <div class="sat-container sat-mx-auto sat-px-4">
+            <div class="sat-text-center sat-mb-12">
+                <h3 class="sat-text-3xl sat-font-bold">Dynamic CSS Shapes</h3>
+                <p class="sat-text-gray-600 sat-mt-4">Switch between smooth rounded edges and sharp square miter joins using simple CSS classes. No extra SVG files required.</p>
+            </div>
+
+            <div class="sat-grid sat-grid-cols-2 sat-gap-8 sat-max-w-4xl sat-mx-auto">
+                <!-- Round Card -->
+                <div class="sat-card sat-p-8 sat-text-center sat-border sat-border-gray-100 sat-rounded-2xl sat-shadow-sm hover:sat-shadow-md sat-transition">
+                    <h4 class="sat-text-xl sat-font-bold sat-mb-6">Rounded (.sat-icon-round)</h4>
+                    <div class="sat-flex sat-justify-center sat-gap-4 sat-mb-4 sat-text-primary-600">
+                        <svg class="sat-icon sat-icon-2xl sat-icon-round"><use href="#sat-icon-home"></use></svg>
+                        <svg class="sat-icon sat-icon-2xl sat-icon-round"><use href="#sat-icon-user"></use></svg>
+                        <svg class="sat-icon sat-icon-2xl sat-icon-round"><use href="#sat-icon-settings"></use></svg>
+                        <svg class="sat-icon sat-icon-2xl sat-icon-round"><use href="#sat-icon-mail"></use></svg>
+                    </div>
+                </div>
+
+                <!-- Square Card -->
+                <div class="sat-card sat-p-8 sat-text-center sat-border sat-border-gray-100 sat-rounded-xl sat-shadow-sm hover:sat-shadow-md sat-transition">
+                    <h4 class="sat-text-xl sat-font-bold sat-mb-6">Square (.sat-icon-square)</h4>
+                    <div class="sat-flex sat-justify-center sat-gap-4 sat-mb-4 sat-text-danger-600">
+                        <svg class="sat-icon sat-icon-2xl sat-icon-square"><use href="#sat-icon-home"></use></svg>
+                        <svg class="sat-icon sat-icon-2xl sat-icon-square"><use href="#sat-icon-user"></use></svg>
+                        <svg class="sat-icon sat-icon-2xl sat-icon-square"><use href="#sat-icon-settings"></use></svg>
+                        <svg class="sat-icon sat-icon-2xl sat-icon-square"><use href="#sat-icon-mail"></use></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animation Demo -->
+    <section id="animations" class="sat-py-16 sat-bg-gray-50">
+        <div class="sat-container sat-mx-auto sat-px-4">
+            <div class="sat-text-center sat-mb-12">
+                <h3 class="sat-text-3xl sat-font-bold">Built-in Animations</h3>
+                <p class="sat-text-gray-600 sat-mt-4">Add life to your UI with lightweight CSS animations.</p>
+            </div>
+
+            <div class="sat-grid sat-grid-cols-4 sat-gap-6 sat-max-w-5xl sat-mx-auto">
+                <div class="sat-card sat-p-6 sat-text-center sat-bg-white sat-rounded-xl sat-shadow-sm">
+                    <svg class="sat-icon sat-icon-xl sat-icon-spin sat-text-primary-600 sat-mb-4"><use href="#sat-icon-loader"></use></svg>
+                    <p class="sat-font-mono sat-text-sm">.sat-icon-spin</p>
+                </div>
+                <div class="sat-card sat-p-6 sat-text-center sat-bg-white sat-rounded-xl sat-shadow-sm">
+                    <svg class="sat-icon sat-icon-xl sat-icon-pulse sat-text-success-600 sat-mb-4"><use href="#sat-icon-heart"></use></svg>
+                    <p class="sat-font-mono sat-text-sm">.sat-icon-pulse</p>
+                </div>
+                <div class="sat-card sat-p-6 sat-text-center sat-bg-white sat-rounded-xl sat-shadow-sm">
+                    <svg class="sat-icon sat-icon-xl sat-icon-bounce sat-text-warning-500 sat-mb-4"><use href="#sat-icon-arrow-up"></use></svg>
+                    <p class="sat-font-mono sat-text-sm">.sat-icon-bounce</p>
+                </div>
+                <div class="sat-card sat-p-6 sat-text-center sat-bg-white sat-rounded-xl sat-shadow-sm">
+                    <svg class="sat-icon sat-icon-xl sat-icon-flip sat-text-info-600 sat-mb-4"><use href="#sat-icon-refresh"></use></svg>
+                    <p class="sat-font-mono sat-text-sm">.sat-icon-flip</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Icon Grid -->
+    <section id="icons" class="sat-bg-white sat-py-16">
+        <div class="sat-container sat-mx-auto sat-px-4">
+            <div class="sat-flex sat-justify-between sat-items-center sat-mb-8">
+                <h3 class="sat-text-3xl sat-font-bold">Icon Library</h3>
+                <input type="text" id="searchInput" class="sat-input sat-w-64" placeholder="Search icons...">
+            </div>
+
+            <div id="iconGrid" class="sat-grid sat-grid-cols-6 sat-gap-4">
+                <!-- Icons will be injected here via JS -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="sat-bg-gray-900 sat-text-gray-400 sat-py-8 sat-text-center">
+        <p>Built with ❤️ by <a href="https://shoaibaftab.com" class="sat-text-white">Shoaib Aftab Tech</a>.</p>
+        <p class="sat-text-sm sat-mt-2">Licensed under MIT.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../src/assets/js/sat-js.min.js"></script>
+    <script>
+        // Fetch and inject SVG Sprite
+        fetch('../src/sat-icons.svg')
+            .then(res => res.text())
+            .then(svg => {
+                document.body.insertAdjacentHTML('afterbegin', svg);
+                renderIcons();
+            });
+
+        function renderIcons() {
+            const symbols = document.querySelectorAll('symbol');
+            const grid = document.getElementById('iconGrid');
+            const iconsHTML = Array.from(symbols).map(sym => {
+                const id = sym.id;
+                const name = id.replace('sat-icon-', '');
+                return `
+                    <div class="icon-item sat-flex sat-flex-col sat-items-center sat-p-4 sat-border sat-border-gray-100 sat-rounded-lg hover:sat-bg-gray-50 sat-transition sat-cursor-pointer" title="${name}">
+                        <svg class="sat-icon sat-icon-lg sat-mb-2 sat-text-gray-700"><use href="#${id}"></use></svg>
+                        <span class="sat-text-xs sat-text-gray-500 sat-truncate sat-w-full sat-text-center">${name}</span>
+                    </div>
+                `;
+            }).join('');
+            grid.innerHTML = iconsHTML;
+
+            // Simple Search Filter
+            document.getElementById('searchInput').addEventListener('input', function(e) {
+                const term = e.target.value.toLowerCase();
+                document.querySelectorAll('.icon-item').forEach(item => {
+                    const name = item.getAttribute('title').toLowerCase();
+                    if(name.includes(term)) {
+                        item.style.display = 'flex';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+ INFO  Accepting connections at http://localhost:3000
+ HTTP  4/27/2026 1:15:33 AM ::1 GET /examples/index.html
+ HTTP  4/27/2026 1:15:33 AM ::1 Returned 301 in 275 ms
+ HTTP  4/27/2026 1:15:33 AM ::1 GET /examples/index
+ HTTP  4/27/2026 1:15:33 AM ::1 Returned 301 in 1 ms
+ HTTP  4/27/2026 1:15:33 AM ::1 GET /examples
+ HTTP  4/27/2026 1:15:33 AM ::1 Returned 200 in 12 ms
+ HTTP  4/27/2026 1:15:33 AM ::1 GET /src/assets/css/sat-css.min.css
+ HTTP  4/27/2026 1:15:33 AM ::1 GET /src/sat-icons.css
+ HTTP  4/27/2026 1:15:33 AM ::1 GET /src/assets/js/sat-js.min.js
+ HTTP  4/27/2026 1:15:33 AM ::1 Returned 200 in 6 ms
+ HTTP  4/27/2026 1:15:33 AM ::1 Returned 200 in 5 ms
+ HTTP  4/27/2026 1:15:33 AM ::1 Returned 200 in 4 ms
+ HTTP  4/27/2026 1:15:33 AM ::1 GET /src/sat-icons.svg
+ HTTP  4/27/2026 1:15:33 AM ::1 Returned 200 in 3 ms
+ HTTP  4/27/2026 1:18:07 AM ::1 GET /examples/index.html
+ HTTP  4/27/2026 1:18:07 AM ::1 Returned 301 in 0 ms
+ HTTP  4/27/2026 1:18:07 AM ::1 GET /examples/index
+ HTTP  4/27/2026 1:18:07 AM ::1 Returned 301 in 1 ms
+ HTTP  4/27/2026 1:18:07 AM ::1 GET /examples
+ HTTP  4/27/2026 1:18:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/27/2026 1:18:07 AM ::1 GET /src/assets/css/sat-css.min.css
+ HTTP  4/27/2026 1:18:07 AM ::1 GET /src/sat-icons.css
+ HTTP  4/27/2026 1:18:07 AM ::1 Returned 200 in 2 ms
+ HTTP  4/27/2026 1:18:07 AM ::1 GET /src/assets/js/sat-js.min.js
+ HTTP  4/27/2026 1:18:07 AM ::1 Returned 200 in 4 ms
+ HTTP  4/27/2026 1:18:07 AM ::1 Returned 200 in 2 ms
+ HTTP  4/27/2026 1:18:07 AM ::1 GET /src/sat-icons.svg
+ HTTP  4/27/2026 1:18:07 AM ::1 Returned 200 in 4 ms
