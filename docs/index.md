@@ -1,11 +1,11 @@
-# SAT Icons Library
+# Shoaib Aftab Icons Library
 
-Welcome to the **SAT Icons** documentation. This is a premium, open-source SVG icon library tailored specifically for the Shoaib Aftab Tech ecosystem and global software development.
+Welcome to the **Shoaib Aftab Icons** documentation. This is a premium, open-source SVG icon library tailored specifically for the Shoaib Aftab Tech ecosystem and global software development.
 
 ## Features
 
 - **500+ High-Quality SVGs:** Covering general UI, commerce, weather, medical, brands, Islamic, and Pakistani categories.
-- **Dynamic CSS Shapes:** Easily switch between `Round` and `Square` icon shapes using CSS classes (`.sat-icon-round` vs `.sat-icon-square`).
+- **Dynamic CSS Shapes:** Easily switch between `Round` and `Square` icon shapes using CSS classes (`.sa-icon-round` vs `.sa-icon-square`).
 - **No Dependencies:** Pure SVG and CSS. No JavaScript required for rendering.
 - **RTL Ready:** Automatic flipping for directional icons when `dir="rtl"` is applied.
 - **Built-in Animations:** Ready-to-use spin, pulse, bounce, and flip animations.

@@ -161,7 +161,7 @@ async function generateAll() {
         const fullSVG = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${innerSVG}</svg>`;
         await fs.writeFile(path.join(catDir, `${name}.svg`), fullSVG);
 
-        spriteDefs += `<symbol id="sat-icon-${name}" viewBox="0 0 24 24">${innerSVG}</symbol>\n`;
+        spriteDefs += `<symbol id="sa-icon-${name}" viewBox="0 0 24 24">${innerSVG}</symbol>\n`;
     };
 
     // 1. Process standard UI Icons (Lucide)
@@ -212,10 +212,10 @@ async function generateAll() {
     }
 
     const fullSprite = `<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">\n${spriteDefs}</svg>`;
-    await fs.writeFile(path.join(__dirname, '../src/sat-icons.svg'), fullSprite);
+    await fs.writeFile(path.join(__dirname, '../src/sa-icons.svg'), fullSprite);
 
     // Generate Icon List Markdown dynamically
-    let mdContent = '# Icon List\n\nBelow is a categorized list of all available icons in the SAT Icons library. Use the `sat-icon-{name}` format to reference them in your HTML.\n\n';
+    let mdContent = '# Icon List\n\nBelow is a categorized list of all available icons in the SAT Icons library. Use the `sa-icon-{name}` format to reference them in your HTML.\n\n';
 
     const allCategories = {...categories, ...brandCategories, ...customCategories};
     for (const [category, icons] of Object.entries(allCategories)) {
