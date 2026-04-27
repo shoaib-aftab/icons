@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/Shoaib%20Aftab-Icons-2563eb?style=for-the-badge&logo=appwrite&logoColor=white" alt="Shoaib Aftab Icons Logo">
+  <img src="docs/assets/logo.png" alt="Shoaib Aftab Tech Logo" width="300">
   <h1>Shoaib Aftab Icons Framework</h1>
   <p><strong>A Modern, Lightweight, RTL-ready SVG Icon Library for Global Software Development.</strong></p>
 
