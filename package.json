@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/shoaib-aftab/icons#readme",
   "devDependencies": {
+    "clean-css": "^5.3.3",
     "fs-extra": "^11.3.4",
     "jsdom": "^29.0.2",
     "lucide": "^1.11.0",

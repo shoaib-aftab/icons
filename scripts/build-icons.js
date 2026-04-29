@@ -2,6 +2,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const lucide = require('lucide');
 const simpleIcons = require('simple-icons');
+const CleanCSS = require('clean-css');
 
 const categories = {
   general: ['home', 'building', 'city', 'globe', 'world', 'map-pin', 'compass', 'search', 'zoom-in', 'zoom-out', 'settings', 'sliders', 'filter', 'list', 'grid', 'menu', 'more-horizontal', 'more-vertical', 'plus', 'minus', 'x', 'check', 'check-circle', 'alert-circle', 'alert-triangle', 'info', 'help-circle', 'bookmark', 'star', 'heart', 'thumbs-up', 'thumbs-down', 'share', 'link', 'external-link', 'copy', 'clipboard', 'anchor', 'target', 'crosshair', 'award', 'gift', 'package', 'box', 'container', 'tag', 'hash', 'at-sign', 'command', 'terminal'],
@@ -227,7 +228,20 @@ async function generateAll() {
     }
     await fs.writeFile(path.join(__dirname, '../docs/icon-list.md'), mdContent);
 
+    // Copy and compile to dist
+    const distDir = path.join(__dirname, '../dist');
+    await fs.ensureDir(distDir);
+
+    await fs.copy(path.join(__dirname, '../src/sa-icons.svg'), path.join(distDir, 'sa-icons.svg'));
+
+    const cssContent = await fs.readFile(path.join(__dirname, '../src/sa-icons.css'), 'utf8');
+    await fs.writeFile(path.join(distDir, 'sa-icons.css'), cssContent);
+
+    const minifiedCss = new CleanCSS().minify(cssContent).styles;
+    await fs.writeFile(path.join(distDir, 'sa-icons.min.css'), minifiedCss);
+
     console.log(`Icons generated successfully! Total icons: ${Object.values(allCategories).flat().length}`);
+    console.log(`Build artifacts created in /dist directory.`);
 }
 
 generateAll().catch(console.error);
