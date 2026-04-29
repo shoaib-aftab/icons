@@ -1,6 +1,6 @@
 # Icon List
 
-Below is a categorized list of all available icons in the SAT Icons library. Use the `sa-icon-{name}` format to reference them in your HTML.
+Below is a categorized list of all available icons in the Shoaib Aftab Icons library. Use the `sa-icon-{name}` format to reference them in your HTML.
 
 ### General
 `home`, `building`, `city`, `globe`, `world`, `map-pin`, `compass`, `search`, `zoom-in`, `zoom-out`, `settings`, `sliders`, `filter`, `list`, `grid`, `menu`, `more-horizontal`, `more-vertical`, `plus`, `minus`, `x`, `check`, `check-circle`, `alert-circle`, `alert-triangle`, `info`, `help-circle`, `bookmark`, `star`, `heart`, `thumbs-up`, `thumbs-down`, `share`, `link`, `external-link`, `copy`, `clipboard`, `anchor`, `target`, `crosshair`, `award`, `gift`, `package`, `box`, `container`, `tag`, `hash`, `at-sign`, `command`, `terminal`

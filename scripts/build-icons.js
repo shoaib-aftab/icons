@@ -218,7 +218,7 @@ async function generateAll() {
     await fs.writeFile(path.join(__dirname, '../src/sa-icons.svg'), fullSprite);
 
     // Generate Icon List Markdown dynamically
-    let mdContent = '# Icon List\n\nBelow is a categorized list of all available icons in the SAT Icons library. Use the `sa-icon-{name}` format to reference them in your HTML.\n\n';
+    let mdContent = '# Icon List\n\nBelow is a categorized list of all available icons in the Shoaib Aftab Icons library. Use the `sa-icon-{name}` format to reference them in your HTML.\n\n';
 
     const allCategories = {...categories, ...brandCategories, ...customCategories};
     for (const [category, icons] of Object.entries(allCategories)) {
