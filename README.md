@@ -4,7 +4,7 @@
   <p><strong>A Modern, Lightweight, RTL-ready SVG Icon Library for Global Software Development.</strong></p>
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
-  [![Version](https://img.shields.io/npm/v/@shoaib-aftab-tech/icons)](https://www.npmjs.com/package/@shoaib-aftab-tech/icons)
+  [![Version](https://img.shields.io/npm/v/@shoaib-aftab/icons)](https://www.npmjs.com/package/@shoaib-aftab/icons)
 </div>
 
 ---
